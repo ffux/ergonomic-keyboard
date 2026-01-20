@@ -2,16 +2,22 @@
 
 ![dactyl manuform keyboard](https://github.com/trentrand/zmk-config/blob/main/images/keyboard.jpeg?raw=true)
 
+> **Sponsored by [PCBWay](https://pcbway.com/g/36866d)** - PCBs for this project were manufactured through PCBWay's maker sponsorship program.
+
 ## Description
 
 This is a custom-built 5x7 Dactyl Manuform keyboard, generated using the Cosmos Dactyl Generator. It features an integrated trackball, combining ergonomic split keyboard design with convenient pointer control.
 
+The PMW3610 breakout boards that power the trackball are now manufactured at scale thanks to sponsorship from PCBWay, making this component more accessible to the maker community.
+
 ## PMW3610 Breakout Board
 
-**[🛒 Purchase the PMW3610 Breakout Board on Tindie](https://www.tindie.com/products/randware/pmw3610-breakout-board/)**\
+**[🛒 Purchase on trentrand.com](https://www.trentrand.com/store/p/pmw3610)** | **[Also available on Tindie](https://www.tindie.com/products/randware/pmw3610-breakout-board/)**\
 **[📖 Wiring & Setup Guide](https://github.com/trentrand/ergonomic-keyboard/blob/main/PMW3610%20Instructions.pdf)**
 
-Build your own version of this keyboard with our ready-to-use PMW3610 motion tracking board. This ultra-low power sensor is perfect for custom trackballs, mice, and battery-powered projects like this keyboard. Each board is hand-tested and ships from Arizona, USA with clear pin labels for easy integration.
+Build your own version of this keyboard with our ready-to-use PMW3610 motion tracking board. This ultra-low power sensor is perfect for custom trackballs, mice, and battery-powered projects like this keyboard. Each board is hand-tested, manufactured by [PCBWay](https://pcbway.com/g/36866d), and ships from Arizona, USA with clear pin labels for easy integration.
+
+**[Read about the PCBWay sponsorship and manufacturing process →](https://www.trentrand.com/blog/pmw3610-manufacturing)**
 
 ## Software
 
@@ -33,13 +39,13 @@ To enable the trackball functionality, this build incorporates a custom Zephyr d
 
 ### Trackball Integration
 
-The trackball uses a PMW3610 sensor, which is mounted on a custom breakout board. The PCB design for this breakout board was sourced from the [siderakb/pmw3610-pcb](https://github.com/siderakb/pmw3610-pcb) repository, and is now available for purchase on [Tindie](https://www.tindie.com/products/randware/pmw3610-breakout-board/).
+The trackball uses a PMW3610 sensor, which is mounted on a custom breakout board. The PCB design for this breakout board was sourced from the [siderakb/pmw3610-pcb](https://github.com/siderakb/pmw3610-pcb) repository, and is now available for purchase on [trentrand.com](https://www.trentrand.com/store/p/pmw3610).
 
 Fabrication Process:
 
 1. PCB design files were obtained from siderakb's repository.
-2. The PCB was ordered from an Electronic Design Automation (EDA) service.
-3. The PMW3610 module was sourced separately and soldered onto the fabricated PCB.
+2. The PCBs are manufactured by [PCBWay](https://pcbway.com/g/36866d) through their maker sponsorship program.
+3. The PMW3610 module is sourced separately and assembled onto the fabricated PCB.
 
 Connection to nRF52840:
 
@@ -67,7 +73,7 @@ Special thanks to siderakb for providing the open-source PCB design files.
 - 1N4148 schottky switching diode
 - Gateron Mini i switches
 - Keycaps
-- PMW3610 optical mouse sensor ([Product Details](https://www.pixart.com/products-detail/21/PMW3610DM-SUDU), [Purchase](https://www.tindie.com/products/randware/pmw3610-breakout-board/))
+- PMW3610 optical mouse sensor ([Product Details](https://www.pixart.com/products-detail/21/PMW3610DM-SUDU), [Purchase](https://www.trentrand.com/store/p/pmw3610))
 - 1.34 inch trackball
 - 304 stainless steel dowel pin
 - MR63ZZ mini ball bearings 3x6x2.5mm
@@ -123,8 +129,13 @@ Special thanks to siderakb for providing the open-source PCB design files.
 ![left keyboard wiring](https://github.com/trentrand/zmk-config/blob/main/images/wiring-left.jpeg?raw=true)
 ![right keyboard wiring](https://github.com/trentrand/zmk-config/blob/main/images/wiring-right.jpeg?raw=true)
 
+## Sponsorship
+
+This project is proudly sponsored by [PCBWay](https://pcbway.com/g/36866d). PCBWay manufactures the PMW3610 breakout boards and supports the maker community through their sponsorship program. Learn more about [how I scaled manufacturing with PCBWay](https://www.trentrand.com/blog/pmw3610-manufacturing).
+
 ## Acknowledgements
 
+- [PCBWay](https://pcbway.com/g/36866d) for PCB manufacturing and maker sponsorship
 - [rianadon for the Cosmos Dactyl Generator](https://github.com/rianadon/dactyl-configurator)
 - [inorichi for the PMW3610 driver](https://github.com/inorichi/zmk-pmw3610-driver)
 - [siderakb for the PMW3610 breakout board PCB design](https://github.com/siderakb/pmw3610-pcb)
